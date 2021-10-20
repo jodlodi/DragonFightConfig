@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/"
+[[mods]]
+modId="dragonfightconfig"
+version="${file.jarVersion}"
+displayName="Dragon Fight Config"
+#updateJSONURL="https://change.me.example.invalid/updates.json"
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/"
+logoFile="dragonfightconfig.png"
+credits=""
+authors="jodlodi"
+description='''
+Prevents the Ender Dragon from spawning on her own.
+'''
+
+[[dependencies.bedsdontexplode]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.bedsdontexplode]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
